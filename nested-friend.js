@@ -13,24 +13,22 @@ use nested if-else-if-else
 
 
 let myNumber = 80;
-let myFriendNumber = 64;
+let myFriendNumber = 39;
 
-if (myNumber >=80){
-    if (myFriendNumber >= 80){
-    console.log('Go for a lunch');
+if (myNumber >=80 && myFriendNumber >= 80 ){
+      console.log('Go for a lunch');
  }
 
- else if (myFriendNumber >= 60 ){
+ else if( myNumber >=80 && myFriendNumber >= 60 ){
     console.log('good luck next time');
  }
- else if (myFriendNumber >= 40){
+ else if ( myNumber >=80 && myFriendNumber >= 40){
     console.log("keep your friend's message unseen")
  }
- else{
+ else if( myNumber >=80 && myFriendNumber <=40 ){
     console.log("block your friend");
  }
 
-}
 else{
     console.log('go to home and sleep and act sad ')
 }

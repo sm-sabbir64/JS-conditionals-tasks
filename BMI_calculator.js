@@ -12,8 +12,8 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 */
 
- let height = 66;
- let weight = 54;
+ let height = 60;
+ let weight = 30;
  let BMI = weight / height * height;
 
  if (BMI <= 18.5){
