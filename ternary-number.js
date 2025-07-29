@@ -26,3 +26,27 @@ else{
 //simple ternary
     let result = num1 > num2 ? num1*2 : num1 + num2;
     console.log(result);
+
+
+
+
+    let myNumber = 80;
+let myFriendNumber = 39;
+
+if (myNumber >=80 && myFriendNumber >= 80 ){
+      console.log('Go for a lunch');
+ }
+
+ else if( myNumber >=80 && myFriendNumber >= 60 ){
+    console.log('good luck next time');
+ }
+ else if ( myNumber >=80 && myFriendNumber >= 40){
+    console.log("keep your friend's message unseen")
+ }
+ else if( myNumber >=80 && myFriendNumber <=40 ){
+    console.log("block your friend");
+ }
+
+else{
+    console.log('go to home and sleep and act sad ')
+}
